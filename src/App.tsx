@@ -37,9 +37,23 @@ function App() {
           </div>
         </div>
       </main>
-      <main className='flex items-center justify-center w-full h-screen bg-yellow-600'>
-        kek
-      </main>
+      <div className="h-auto relative">
+        <img className="h-[600px]" width="100%" src="https://www.boaconsulta.com/blog/wp-content/uploads/2020/08/quando-procurar-um-dentista-e-como-escolher-um1280x720.jpg" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col gap-10 justify-center items-center">
+          <div className="text-4xl">Consulta Dentária</div>
+          <div className="flex gap-10 text-lg">
+            <div className="w-80">
+              Diariamente são introduzidos novos produtos neste mercado muito competitivo. Infelizmente, fabricantes têm feito marketing direto para o público, como uma maneira de pressionar o profissional ao consumo de determinada técnica e/ou equipamento. Existem muitas panacéias que não têm trabalhos científicos sérios que justifiquem sua inclusão na nossa atividade profissional diária.
+            </div>
+            <div className="w-80">
+              Diariamente são introduzidos novos produtos neste mercado muito competitivo. Infelizmente, fabricantes têm feito marketing direto para o público, como uma maneira de pressionar o profissional ao consumo de determinada técnica e/ou equipamento. Existem muitas panacéias que não têm trabalhos científicos sérios que justifiquem sua inclusão na nossa atividade profissional diária.
+            </div>
+            <div className="w-80">
+              Diariamente são introduzidos novos produtos neste mercado muito competitivo. Infelizmente, fabricantes têm feito marketing direto para o público, como uma maneira de pressionar o profissional ao consumo de determinada técnica e/ou equipamento. Existem muitas panacéias que não têm trabalhos científicos sérios que justifiquem sua inclusão na nossa atividade profissional diária.
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   )
