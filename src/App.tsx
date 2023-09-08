@@ -54,6 +54,19 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="h-screen bg-yellow-800 flex flex-col items-center gap-10">
+        <div className="text-4xl mt-28">Title</div>
+        <div className="flex gap-10">
+          <div className="bg-purple-700 w-[500px] flex justify-center">VIDEO</div>
+          <div className="bg-purple-500 flex flex-col gap-2">
+            <div>* Topico XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+            <div>* Topico XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+            <div>* Topico XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+            <div>* Topico XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+            <div>* Topico XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   )
