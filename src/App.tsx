@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Menu />
-      <main className="flex items-center justify-center w-full h-screen bg-blue-600">
+      <main className="flex items-center justify-center w-full h-screen bg-zinc-950">
         <video
           className="h-screen"
           src="/video/video.mp4"
@@ -15,7 +15,7 @@ function App() {
           muted
         />
       </main>
-      <main className="flex items-center justify-center gap-20 w-full h-screen bg-lightBlue">
+      <main className="flex items-center justify-center gap-20 w-full h-screen bg-zinc-950">
         <div className="flex flex-col gap-5 items-center justify-center w-1/3 h-auto">
           <div className="text-4xl text-blue w-full">
             Solicite seu Agendamento
@@ -29,22 +29,22 @@ function App() {
             consulta.
           </div>
         </div>
-        <div className="flex flex-col gap-1 bg-darkBlue p-8 w-1/4">
+        <div className="flex flex-col gap-1 bg-zinc-900 p-8 w-1/4">
           <div>
             <div className="text-white">Nome</div>
-            <input className="w-full" />
+            <input className="w-full p-1" />
           </div>
           <div>
             <div className="text-white">Telefone</div>
-            <input className="w-full" />
+            <input className="w-full p-1" />
           </div>
           <div>
             <div className="text-white">Email</div>
-            <input className="w-full" />
+            <input className="w-full p-1" />
           </div>
           <div>
             <div className="text-white">Motivo da Consulta</div>
-            <input className="w-full h-20" />
+            <input className="w-full p-1" />
           </div>
         </div>
       </main>
@@ -84,13 +84,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="h-screen bg-yellow-800 flex flex-col items-center gap-10">
+      <div className="h-screen bg-zinc-950 flex flex-col items-center gap-10">
         <div className="text-4xl mt-28">Title</div>
         <div className="flex gap-10">
-          <div className="bg-purple-700 w-[500px] flex justify-center">
+          <div className="bg-zinc-900 w-[500px] flex justify-center">
             VIDEO
           </div>
-          <div className="bg-purple-500 flex flex-col gap-2">
+          <div className="bg-zinc-900 flex flex-col gap-2">
             <div>
               * Topico
               XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -114,7 +114,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="h-[500px] bg-red-800 flex items-center justify-center gap-16">
+      <div className="h-[500px] bg-zinc-950 flex items-center justify-center gap-16">
         <GoogleMaps />
         <div className="w-[400px] h-[400px] bg-white flex flex-col justify-center items-center gap-6 border-t-[20px] border-blue">
           <div className="w-80 text-center text-3xl font-bold">

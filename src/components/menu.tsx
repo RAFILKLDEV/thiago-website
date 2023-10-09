@@ -1,6 +1,6 @@
 export function Menu() {
-    return <div className="z-10 flex items-center justify-center fixed top-0 left-0 right-0 gap-10 h-[12vh] bg-darkBlue text-white text-[18px]
-    border-b-4 border-lightBlue">
+    return <div className="z-10 flex items-center justify-center fixed top-0 left-0 right-0 gap-10 h-[12vh] bg-zinc-950 text-blue text-[18px]
+    border-b-4 border-blue">
         <div>Inicio</div>
         <div>Thiago Dentista</div>
         <div>Tratamentos</div>

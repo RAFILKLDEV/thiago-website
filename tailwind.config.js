@@ -8,6 +8,10 @@ module.exports = {
         blue: "#3282B8",
         lightBlue: "#BBE1FA",
       },
+      teste: {
+        preto: "#1B262C",
+        azul: "#3282B8",
+      }
     },
   },
   plugins: [],
